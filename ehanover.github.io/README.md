@@ -5,4 +5,9 @@ I had trouble deciding what framework to use when creating this site. I was worr
 
 The majority of the challenge of this website is making a look pretty which has always been a challenge for me. I'd like to think that the project descriptions in the website make up for my lack of hipster UI.
 
-## [Visit the website here](https://ehanover.github.io)
+### Website features (TODO)
+* Carousel
+* Markdown rendering
+
+### Website content
+I wanted a way to be able to change the content of the website (text like you're reading now) without changing the code that runs the website. To achieve this, I moved all the website content to another GitHub repository. Using GitHub to host static content doesn't seem super normal, but it works for now and it would be easy to migrate the data in the future if needed.
