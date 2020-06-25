@@ -48,7 +48,7 @@
             "id": 5,
             "date": "07/2019",
             "title": "Android Weather Widget #1 (OpenWeatherMap API)",
-            "github": "weatherwidget-TODO",
+            "github": "weatherwidget-openweathermap",
             "technologies": ["Android (Java)"],
             "imageNum": 3,
             "imageCaptions": ["Screenshot of widget on Android home screen", "Screenshot of app to control the widget", ""],
