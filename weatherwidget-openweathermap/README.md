@@ -6,7 +6,7 @@ I wanted the widget to display some of the weather information in a way that is 
 
 <!-- This weather API only provides 5 days of weather compared to the 7 in [my other weather widget](https://ehanover.github.io/project/weatherwidget-darksky) -->
 
-### Extensions
+## Extensions
 * Add a new color scheme
 * Replace the widget ListView with a table so that columns can be aligned
 * Add a "save changes" button to the app instead of text change listeners
