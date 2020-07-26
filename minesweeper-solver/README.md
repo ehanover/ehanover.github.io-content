@@ -14,5 +14,5 @@ A flaw with the game itself is that minesweeper games often end in a situation w
 I used pygame to display images of the real minesweeper game tiles, so my clone and the real game appear identical up to the pixel. This similarity allowed me to take screenshots of the board to determine the state of the game board. Using screenshots to inspect the board is probably not the most efficient method, but it was easy enough to implement and it allows my solver program to run on other implementations of the minesweeper game.
 
 ### Extensions
-* Add chording - "When an uncovered square with a number has exactly the correct number of adjacent squares flagged, performing a click with both mouse buttons on it will uncover all unmarked squares" [-Minesweeper wiki](http://www.minesweeper.info/wiki/Chord)
+* Add chording: "When an uncovered square with a number has exactly the correct number of adjacent squares flagged, performing a click with both mouse buttons on it will uncover all unmarked squares" [-Minesweeper wiki](http://www.minesweeper.info/wiki/Chord)
 * Try a probability-based solver for resolving the guessing situations, or as a replacement for the brute-force search

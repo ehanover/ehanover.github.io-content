@@ -1,7 +1,7 @@
 # Clone Hero Mobile
 
 ### Background
-As a kid I loved playing Guitar Hero on the Wii. Recently, I discovered a huge online community dedicated to keeping Guitar Hero alive in new ways. A large part of the community transcribes modern songs into a "chart" format, which the format that a new open source version of Guitar Hero uses. You can find the song audio and the chart files for a huge number of songs. I searched through the song database [here](https://chorus.fightthe.pw/).
+When I was younger I loved playing Guitar Hero on the Wii. Recently, I discovered a huge online community dedicated to keeping Guitar Hero alive in new ways. A large part of the community transcribes modern songs into a "chart" format, which the format that a new open source version of Guitar Hero uses. You can find the song audio and the chart files for a huge number of songs. I searched through the song database [here](https://chorus.fightthe.pw/).
 
 I couldn't find any details about the format of the chart files, so a large part of the time I spent on this project was figuring out the details of the format. The text in the files were thousands of lines of seemingly random letters and numbers.
 

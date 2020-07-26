@@ -1,98 +1,98 @@
 {
-    "favoriteIds": [
-        1, 2, 4
-    ],
-    "projects": [
-        {
-            "id": 1,
-            "date": "03/2020",
-            "title": "Yelp Restaurant Search Website",
-            "github": "yelp-restaurant-website",
-            "technologies": ["Vue.js", "Javascript", "Bootstrap", "HTML/CSS"],
-            "imageNum": 5,
-            "imageCaptions": ["Main restaurant search page implementing the Google Maps API", "List of results from the main search page. Each link opens details of the restaurant.",
-              "General details about a specific restaurant", "Reviews for the given restaurant fetched using the Zomato API", "The restaurant recommendation page - each color represents a cuisine category"],
-            "imageShowcaseNums": [1]
-        },
-        {
-            "id": 2,
-            "date": "05/2020",
-            "title": "LTE Arduino Camera Robot",
-            "github": "camera-robot",
-            "technologies": ["Android (Flutter)", "Dart", "Arduino"],
-            "imageNum": 4,
-            "imageCaptions": ["Car Chassis Version 2 - front view", "Car Chassis Version 2 - back view", "Screenshot of laptop control window, with phone camera feed and user input shown", "Car Chassis Version 1"],
-            "imageShowcaseNums": [1]
-        },
-        {
-            "id": 3,
-            "date": "07/2019",
-            "title": "Phone Guitar Hero Clone",
-            "github": "clone-hero-mobile",
-            "technologies": ["Android (Flutter)", "Dart"],
-            "imageNum": 0,
-            "imageCaptions": [],
-            "imageShowcaseNums": []
-        },
-        {
-            "id": 4,
-            "date": "07/2019",
-            "title": "Android Weather Widget #2 (DarkSky API)",
-            "github": "weatherwidget-darksky",
-            "technologies": ["Android (Java)"],
-            "imageNum": 3,
-            "imageCaptions": ["Screenshot of widget on Android home screen", "Screenshot of app to control the widget", ""],
-            "imageShowcaseNums": [3]
-        },
-        {
-            "id": 5,
-            "date": "07/2019",
-            "title": "Android Weather Widget #1 (OpenWeatherMap API)",
-            "github": "weatherwidget-openweathermap",
-            "technologies": ["Android (Java)"],
-            "imageNum": 3,
-            "imageCaptions": ["Screenshot of widget on Android home screen", "Screenshot of app to control the widget", ""],
-            "imageShowcaseNums": [3]
-        },
-        {
-            "id": 6,
-            "date": "03/2019",
-            "title": "Minimax Algorithm with Tic-Tac-Toe, Connect Four, and Othello",
-            "github": "minimax-games",
-            "technologies": ["Python"],
-            "imageNum": 0,
-            "imageCaptions": [],
-            "imageShowcaseNums": []
-        },
-        {
-            "id": 7,
-            "date": "06/2019",
-            "title": "Minesweeper Clone and Solver",
-            "github": "minesweeper-solver",
-            "technologies": ["Python"],
-            "imageNum": 0,
-            "imageCaptions": [],
-            "imageShowcaseNums": []
-        },
-        {
-            "id": 8,
-            "date": "06/2019",
-            "title": "Raspberry Pi Lighting System with App",
-            "github": "lights-rpi-digital",
-            "technologies": ["Python", "Raspberry Pi", "Android (Flutter)"],
-            "imageNum": 3,
-            "imageCaptions": ["Light strip connected to Raspberry Pi (without USB microphone)", "Screenshot of app that controls the lights. Two of the different light modes are shown.", "Wiring layout"],
-            "imageShowcaseNums": [1]
-        },
-        {
-            "id": 9,
-            "date": "05/2020",
-            "title": "Personal Website",
-            "github": "ehanover.github.io",
-            "technologies": ["React.js", "Javascript", "Bootstrap", "HTML/CSS"],
-            "imageNum": 0,
-            "imageCaptions": [],
-            "imageShowcaseNums": []
-        }
-    ]
+	"favoriteIds": [
+		1, 2, 4
+	],
+	"projects": [
+		{
+			"id": 1,
+			"date": "03/2020",
+			"title": "Yelp Restaurant Search Website",
+			"github": "yelp-restaurant-website",
+			"technologies": ["Vue.js", "Javascript", "Bootstrap", "HTML/CSS"],
+			"imageNum": 5,
+			"imageCaptions": ["Main restaurant search page implementing the Google Maps API", "List of results from the main search page. Each link opens details of the restaurant.",
+			  "General details about a specific restaurant", "Reviews for the given restaurant fetched using the Zomato API", "The restaurant recommendation page - each color represents a cuisine category"],
+			"imageShowcaseNums": [1]
+		},
+		{
+			"id": 2,
+			"date": "05/2020",
+			"title": "LTE Arduino Camera Robot",
+			"github": "camera-robot",
+			"technologies": ["Android (Flutter)", "Dart", "Arduino"],
+			"imageNum": 4,
+			"imageCaptions": ["Car Chassis Version 2 - front view", "Car Chassis Version 2 - back view", "Screenshot of laptop control window, with phone camera feed and user input shown", "Car Chassis Version 1"],
+			"imageShowcaseNums": [1]
+		},
+		{
+			"id": 3,
+			"date": "07/2019",
+			"title": "Phone Guitar Hero Clone",
+			"github": "clone-hero-mobile",
+			"technologies": ["Android (Flutter)", "Dart"],
+			"imageNum": 0,
+			"imageCaptions": [],
+			"imageShowcaseNums": []
+		},
+		{
+			"id": 4,
+			"date": "07/2019",
+			"title": "Android Weather Widget #2 (DarkSky API)",
+			"github": "weatherwidget-darksky",
+			"technologies": ["Android (Java)"],
+			"imageNum": 3,
+			"imageCaptions": ["Screenshot of widget on Android home screen", "Screenshot of app to control the widget", ""],
+			"imageShowcaseNums": [3]
+		},
+		{
+			"id": 5,
+			"date": "07/2019",
+			"title": "Android Weather Widget #1 (OpenWeatherMap API)",
+			"github": "weatherwidget-openweathermap",
+			"technologies": ["Android (Java)"],
+			"imageNum": 3,
+			"imageCaptions": ["Screenshot of widget on Android home screen", "Screenshot of app to control the widget", ""],
+			"imageShowcaseNums": [3]
+		},
+		{
+			"id": 6,
+			"date": "03/2019",
+			"title": "Minimax Algorithm with Tic-Tac-Toe, Connect Four, and Othello",
+			"github": "minimax-games",
+			"technologies": ["Python"],
+			"imageNum": 0,
+			"imageCaptions": [],
+			"imageShowcaseNums": []
+		},
+		{
+			"id": 7,
+			"date": "06/2019",
+			"title": "Minesweeper Clone and Solver",
+			"github": "minesweeper-solver",
+			"technologies": ["Python"],
+			"imageNum": 0,
+			"imageCaptions": [],
+			"imageShowcaseNums": []
+		},
+		{
+			"id": 8,
+			"date": "06/2019",
+			"title": "Raspberry Pi Lighting System with App",
+			"github": "lights-rpi-digital",
+			"technologies": ["Python", "Raspberry Pi", "Android (Flutter)"],
+			"imageNum": 3,
+			"imageCaptions": ["Light strip connected to Raspberry Pi (without USB microphone)", "Screenshot of app that controls the lights. Two of the different light modes are shown.", "Wiring layout"],
+			"imageShowcaseNums": [1]
+		},
+		{
+			"id": 9,
+			"date": "05/2020",
+			"title": "Personal Website",
+			"github": "ehanover.github.io",
+			"technologies": ["React.js", "Javascript", "Bootstrap", "HTML/CSS"],
+			"imageNum": 0,
+			"imageCaptions": [],
+			"imageShowcaseNums": []
+		}
+	]
 }
