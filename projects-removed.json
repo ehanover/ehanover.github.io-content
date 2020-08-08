@@ -9,11 +9,11 @@
 
 
 	{
-		"id": 10,
-		"date": "07/2020",
-		"title": "Pictionary + Telephone Browser Game",
-		"github": "fixedpicturephone",
-		"technologies": ["Node.js", "Socket.io", "React.js", "HTML/CSS"],
+		"id": 6,
+		"date": "03/2019",
+		"title": "Minimax Algorithm with Tic-Tac-Toe, Connect Four, and Othello",
+		"github": "minimax-games",
+		"technologies": ["Python"],
 		"imageNum": 0,
 		"imageCaptions": [],
 		"imageShowcaseNums": []

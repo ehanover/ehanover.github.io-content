@@ -11,7 +11,7 @@
 			"technologies": ["Vue.js", "Javascript", "Bootstrap", "HTML/CSS"],
 			"imageNum": 5,
 			"imageCaptions": ["Main restaurant search page implementing the Google Maps API", "List of results from the main search page. Each link opens details of the restaurant.",
-			  "General details about a specific restaurant", "Reviews for the given restaurant fetched using the Zomato API", "The restaurant recommendation page - each color represents a cuisine category"],
+				"General details about a specific restaurant", "Reviews for the given restaurant fetched using the Zomato API", "The restaurant recommendation page - each color represents a cuisine category"],
 			"imageShowcaseNums": [1]
 		},
 		{
@@ -55,16 +55,6 @@
 			"imageShowcaseNums": [3]
 		},
 		{
-			"id": 6,
-			"date": "03/2019",
-			"title": "Minimax Algorithm with Tic-Tac-Toe, Connect Four, and Othello",
-			"github": "minimax-games",
-			"technologies": ["Python"],
-			"imageNum": 0,
-			"imageCaptions": [],
-			"imageShowcaseNums": []
-		},
-		{
 			"id": 7,
 			"date": "06/2019",
 			"title": "Minesweeper Clone and Solver",
@@ -93,6 +83,17 @@
 			"imageNum": 0,
 			"imageCaptions": [],
 			"imageShowcaseNums": []
+		},
+		{
+			"id": 10,
+			"date": "07/2020",
+			"title": "FixedPicturePhone: Pictionary + Telephone Browser Game",
+			"github": "fixedpicturephone",
+			"technologies": ["Node.js", "React.js", "Socket.io", "HTML/CSS"],
+			"imageNum": 5,
+			"imageCaptions": ["Creating a drawing from a given caption", "Writing a caption of a given drawing", "Reviewing drawings and captions after the game is finished",
+				"Reviewing drawings and captions after the game is finished", "Game home page"],
+			"imageShowcaseNums": [1]
 		}
 	]
 }
