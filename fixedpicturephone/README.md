@@ -1,9 +1,9 @@
 # FixedPicturePhone: Pictionary + Telephone
 
-The Coronavirus quarantine caused my family to spend a lot more quality time together, so we often played of games to pass the time. One of the games we particularly enjoyed is called BrokenPicturePhone. We thought the concept of the game was entertaining, but the user interface was so difficult to use that playing it became frustrating. I decided to make a clone of the game with a clearer interface and enhanced gameplay options. Naturally, the name FixedPicturePhone came to mind.
+The Coronavirus quarantine caused my family to spend a lot more time together, and we often ended up played games to pass the time. One of the games we particularly enjoyed is called BrokenPicturePhone. We thought the concept of the game was entertaining, but the user interface was so difficult to use that playing it became frustrating. I decided to make a clone of the game with a clearer interface and enhanced gameplay options. Naturally, the name FixedPicturePhone came to mind.
 
 ## The front-end
-My number one priority in making the interface for this game was simplicity and usability because that's what the original BrokenPicturePhone lacked the most. I used React because I recently started learning it and this project was an opportunity to practice using it. I normally use Bootstrap along side a web framework but since Bootstrap seemed like overkill for this simpler app, I researched Bootstrap alternatives and chose [Pure CSS](https://purecss.io/). I enjoyed its simplicity and light weight nature. 
+My number one priority in making the interface for this game was simplicity and usability because that's what the original BrokenPicturePhone lacked the most. I used React because I recently started learning it and this project was an opportunity to practice using it. I normally use Bootstrap along side a web framework but since Bootstrap seemed like overkill for this simpler app, I researched Bootstrap alternatives and chose [Pure CSS](https://purecss.io/). I enjoyed its simplicity and light weight. 
 
 ## The back-end
 This is the first project I've made that relies heavily on backend logic. In addition to normal HTTP requests, I utilized the [socket.io](https://socket.io/) library to handle the asynchronous events between the client and the server. 
@@ -20,11 +20,10 @@ When I had people try playing the game for the first time, I hadn't added handli
 
 <br />
 <br />
-<br />
 
-### How to play the game
+## How to play the game
 Each player in the game is assigned one "book." Each book is an alternating sequence of drawings and captions. A book always starts with a caption. 
 
-All of the books in the game get randomly passed around to all the players until every player has contributed to every book once (can be customized configuration files). When a player is contributing to a book, the player sees only the last entry to the book, which is either one picture or one drawing. The player must either use the last drawing to write a caption, or use the last caption to create a drawing (depending on what was added to the book last).
+All of the books in the game get randomly passed around to all the players until every player has contributed to every book once (can be customized configuration files). When a player is contributing to a book, the player sees only the last entry to the book, which is either one picture or one drawing. If the player sees a drawing, he or she must write a caption of that drawing. If the player sees a caption, he or she must create a drawing of what that caption says.
 
-When the game ends, everyone looks through all of the book entries together to enjoy the silliness that took place. 
+When the game ends, everyone looks through all of the book entries together to enjoy the silly drawings and captions made throughout the game.

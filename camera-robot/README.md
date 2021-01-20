@@ -2,7 +2,7 @@
 
 This app enables a robot car to carry a cell phone around in order to utilize the phone's camera and cellular capabilities. In theory, the operator should be able to drive the car anywhere that the phone has a cellular connection. 
 
-The idea that I can sit in my house and drive my little car to basically anywhere in the world is super cool to me. I've seen videos of RC drones, planes, and even boats with this functionality and it amazes me every time.
+The idea that I could theoretically sit in my house and drive my little car to basically anywhere in the world is super cool to me. I've seen videos of RC drones, planes, and even boats with this functionality and it amazes me every time. This is what I wanted to recreate with this project. 
 
 This project has three components:
 * Server code that displays the camera from the phone on the robot, and that sends back driving commands to the phone
@@ -19,13 +19,13 @@ To get around this, I ended up used [Pagekite](https://pagekite.net/) because th
 ## Phone app
 I used Flutter for the Android app because it streamlines the process of obtaining a live camera preview feed. Then, I used Flutter's platform channels so I could write Java code to process the images. 
 
-Running Java code through platform channel is also crucial to the serial communication with the Arduino. I used [this USB library](https://github.com/felHR85/UsbSerial) to handle the serial communication once I established the USB connection. I expected the serial communication to be difficult, but it was actually wasn't too bad. 
+Running Java code through the platform channel is also necessary to perform the serial communication with the Arduino. I used [this USB library](https://github.com/felHR85/UsbSerial) to handle the serial communication once I established the USB connection. I expected the serial communication to be difficult, but it was actually wasn't too bad. 
 
 ## Arduino code
 The code on the Arduino is simple: it reads 8 characters of serial data which is split into two integers, and it then sets the respective motor's speed to those integer values. 
 
 ## Car chassis
-The first version of the chassis used all parts from a simple car kit. I found that this chassis was too small to hold the phone, the 3D printed phone mount, the USB hub, the long USB cable, the battery pack, and the Arduino. Also, the wheels were too small to be used outdoors. For the second version of the chassis, I designed and 3D printed new larger wheels and cut a sheet of acrylic that was large enough to fit all the components. The second version of the chassis worked very well outside.
+The first version of the chassis used all parts from a simple car kit. I found that this chassis was too small to hold the phone, the 3D printed phone mount, the USB hub, the long USB cable, the battery pack, and the Arduino. Also, the wheels were too small to be used outdoors. For the second version of the chassis, I designed and 3D printed new larger wheels and cut a sheet of acrylic that was large enough to fit all the components. The second version of the chassis worked much better outside.
 
 ## Extensions
 * Use the server code to set location waypoints that the car drives navigates to, similar to commercial long-range robot software

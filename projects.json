@@ -17,7 +17,7 @@
 		{
 			"id": 2,
 			"date": "05/2020",
-			"title": "LTE Arduino Camera Robot",
+			"title": "LTE Arduino Camera Rover",
 			"github": "camera-robot",
 			"technologies": ["Android (Flutter)", "Dart", "Arduino"],
 			"imageNum": 4,
@@ -27,7 +27,7 @@
 		{
 			"id": 3,
 			"date": "07/2019",
-			"title": "Phone Guitar Hero Clone",
+			"title": "\"Guitar Hero\" Phone Clone",
 			"github": "clone-hero-mobile",
 			"technologies": ["Android (Flutter)", "Dart"],
 			"imageNum": 0,
