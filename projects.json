@@ -94,6 +94,16 @@
 			"imageCaptions": ["Creating a drawing from a given caption", "Writing a caption of a given drawing", "Reviewing drawings and captions after the game is finished",
 				"Reviewing drawings and captions after the game is finished", "Game home page"],
 			"imageShowcaseNums": [1]
+		},
+		{
+			"id": 11,
+			"date": "01/2021",
+			"title": "DIY 3D Renderer with Game Demo",
+			"github": "diy-3d-renderer",
+			"technologies": ["C++"],
+			"imageNum": 2,
+			"imageCaptions": ["Desert-themed demo game to showcase the engine's capability", "Rendering the test monkey head from Blender"],
+			"imageShowcaseNums": [1]
 		}
 	]
 }
